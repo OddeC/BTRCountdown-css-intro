@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        UAT Space Page
+        </title>
+    </head>
+    
+    <body>
+        <img src="UATspaceLogo-1.jpg">
+        <h3>
+            UAT Space Page
+        </h3>
+        <script>
+            document.write("test of the document.write fucntion in javascript");
+        </script>
+        <p>
+            Representation of html paragraph tags.
+        </p>
+        <script>
+            console.log("tagsv1.hmtl")
+        </script>
+        <br>
+        <!--declaration of blastoff notification-->
+        <div id ="BlastOffText">
+            BlastOff notification
+        </div>
+        <br>
+        <br>
+        <!--attributing css blink function to launch countdown header-->
+        <h2 id = "blink">Launch Countdown</h2>
+        <!--Display of countdown results-->
+        <div id = "CountDownRes">Countdown results</div>
+        <!--Button input to start countdown-->
+        <button onclick=" BTRCountDowntimer();">start</button>
+        <!--retreiving Javascript text and input delay between blink function-->
+        <script type="text/javascript">
+            var blink = document.getElementById('blink');
+            setInterval(function() {
+                blink.style.opactiy = (blink.style.opacity == 0 ? 1 : 0);
+            }, 1500);
+        </script>
+    </body>
+</html>

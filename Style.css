@@ -1,0 +1,10 @@
+Body {
+    background-color: lightblue;
+}
+
+#blink {
+    font-size: 20px;
+    font-weight: bold;
+    color: cadetblue;
+    transition : 0.5s
+}
